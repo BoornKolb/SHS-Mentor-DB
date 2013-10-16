@@ -1,3 +1,9 @@
 SHS-Mentor-DB
 =============
-I'm doing things to this file!
+I'm changing things in here.
+
+Contributors:
+Kolbe B.
+Nathen H.
+Jeffrey D.
+Hobson
