@@ -18,6 +18,6 @@ Future Releases:
 
 Contributors:
 Kolbe B.
-Nathan H.
-Jeffrey D.
-Hobson L.
+,Nathan H.
+,Jeffrey D.
+,Hobson L.
