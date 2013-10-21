@@ -10,8 +10,11 @@ Thurday 8:15 -8:40
 
 #Contributors:
 Kolbe B.
+
 Nathan H.
+
 Jeffrey D.
+
 Hobson L.
 
 
