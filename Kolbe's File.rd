@@ -1,3 +1,1 @@
-SHS-Mentor-DB
-=============
 This is my file and I will mess with things and maybe add basic python in here.
