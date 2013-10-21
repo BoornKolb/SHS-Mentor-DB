@@ -2,6 +2,7 @@ SHS-Mentor-DB
 =============
 #Schedule:
 Monday 8:15-8:40
+
 Thurday 8:15 -8:40
 
 #Future Releases:
