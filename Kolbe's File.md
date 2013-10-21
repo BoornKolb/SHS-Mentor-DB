@@ -8,7 +8,8 @@ This is my file and I will mess with things and maybe add basic python in here.
 
 3.Look at more python and move on to the flask tutorial
 
-3.Look at and download sublime text 2 
+4.Look at and download sublime text 2 
 
-
+#Add any Questions here 
+1.
 
