@@ -25,8 +25,7 @@ print "Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color)
 
 #Python Helpful Hints
-1.   
-
+1. 
 Boolean Operators
 True and True is True
 True and False is False
