@@ -24,6 +24,16 @@ color = raw_input("What is your favorite color?")
 print "Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color)
 
+bool_one = False or not True and True
+
+bool_two = False and not True or True
+
+bool_three = True and not (False or False)
+
+bool_four = not not True or False and not True
+
+bool_five = False or not (True and True)
+
 #Python Helpful Hints
 1. 
 Boolean Operators
