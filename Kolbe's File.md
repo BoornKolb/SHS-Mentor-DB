@@ -27,6 +27,7 @@ print "Ah, so your name is %s, your quest is %s, " \
 #Python Helpful Hints
 1. 
 Boolean Operators
+
 True and True is True
 True and False is False
 False and True is False
