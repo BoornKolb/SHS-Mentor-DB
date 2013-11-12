@@ -1,5 +1,3 @@
-This should not show up on the main branch
-
 SHS-Mentor-DB
 =============
 #Schedule:
