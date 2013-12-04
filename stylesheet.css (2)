@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<div id="header">
+			<div id="navbar">
+				<ul>
+					<li>Welcome to the Database Home</li>
+					<li>Help</li>
+					<li>Contact Us!</li>
+				</ul>
+			</div>
+			<h2>Main Hub - Code Categories</h3>
+		</div>
+		<div id="left">
+		<p></p>
+		</div>
+		<div id="right">
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		</div>
+		<div id="footer">
+			<div id="button">
+				<p>Send me an <span class="bold">e-mail</span>!</p>
+			</div>
+		</div>
+	</body>
+</html>
