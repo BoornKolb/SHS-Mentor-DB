@@ -11,8 +11,6 @@ Access Database
 #Contributors:
 Kolbe B.
 
-Nathan H.
-
 Jeffrey D.
 
 Hobson L.
