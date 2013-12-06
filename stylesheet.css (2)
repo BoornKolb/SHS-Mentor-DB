@@ -24,7 +24,7 @@ img {
         margin-top:-10px;
         left:50%;
         margin-left:-254px;
-        background-color:#00CCFF;
+        background-color:#000000;
 }
 
 #header {
@@ -108,12 +108,11 @@ th {
 }
 
 #footer{
-        /*Add your CSS here!*/
-        clear:both;
+        clear: both;
         position: relative;
-        bottom: -25px;
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
+        bottom: -20px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
         height: 75px;
         background-color: #000000;
 }
