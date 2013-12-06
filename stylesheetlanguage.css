@@ -41,7 +41,6 @@ ul{
 }
 
 li {
-        /*Add your CSS here!*/
         display:inline;
         border: 2px solid #000000;
         font-family: Futura, Tahoma, sans-serif;
@@ -55,8 +54,6 @@ li {
 }
 
 #left{
-        /*Add your CSS here!*/
-        
         width:45%;
 }
 
@@ -66,7 +63,6 @@ p {
 }
 
 #right{
-        /*Add your CSS here!*/
         width:100%;
         margin:auto;
 }
