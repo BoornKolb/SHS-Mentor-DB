@@ -28,7 +28,7 @@ img {
 
 #header {
         position: relative;
-        top: -10px;
+        top: 0px;
         background-color: #000000;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
