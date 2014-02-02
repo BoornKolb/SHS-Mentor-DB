@@ -20,18 +20,34 @@ img {
 
 #navbar {
         position:fixed;
+<<<<<<< HEAD
         margin-top:-10px;
         left:50%;
         margin-left:-254px;
         background-color:#000000;
+=======
+        margin-top:0px;
+        left:50%;
+        margin-left:-254px;
+        background-color:#000000;
+        
+>>>>>>> b30c7ddac61a1edc3d16bea1f10506a6bdf0a6d6
 }
 
 #header {
         position: relative;
+<<<<<<< HEAD
         top: -10px;
         background-color: #000000;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+=======
+        top: 0px;
+        background-color: #000000;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        
+>>>>>>> b30c7ddac61a1edc3d16bea1f10506a6bdf0a6d6
 }
 
 ul{
@@ -88,7 +104,11 @@ td img {
 }
 
 th {
+<<<<<<< HEAD
         font-family: Verdana;
+=======
+        font-family: Tahoma;
+>>>>>>> b30c7ddac61a1edc3d16bea1f10506a6bdf0a6d6
         font-size: 1em;
         font-weight: normal;
         color: #3c4543;
