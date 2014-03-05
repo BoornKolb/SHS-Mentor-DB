@@ -5,3 +5,485 @@
 2014-02-21 08:32:13,136 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
 2014-02-21 08:32:51,095 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
 2014-02-21 08:39:45,509 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
+2014-02-21 08:49:11,702 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
+2014-02-21 08:49:46,755 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 111, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-21 08:50:14,306 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 111, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-21 08:50:43,623 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
+2014-02-21 08:53:51,110 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
+2014-02-21 08:54:15,359 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 111, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-24 09:07:07,328 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
+2014-02-24 09:07:54,261 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 111, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-24 09:08:06,848 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 111, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-25 08:33:07,837 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
+2014-02-25 08:33:38,089 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 108, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-25 08:35:33,085 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
+2014-02-25 08:48:10,054 INFO: microblog startup [in app/__init__.py:34]
+2014-02-25 08:53:21,760 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:34]
+2014-02-25 08:53:24,232 ERROR: Exception on / [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 43, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-25 08:53:40,895 ERROR: Exception on /index [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 43, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-25 08:53:45,295 ERROR: Exception on /index [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 43, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-25 08:53:53,986 ERROR: Exception on /index [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 43, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-25 08:53:56,002 ERROR: Exception on /index [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 43, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-25 08:53:56,293 ERROR: Exception on /index [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 43, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-25 08:54:00,972 ERROR: Exception on /index [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 43, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-25 08:54:05,196 ERROR: Exception on /index [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 43, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-26 08:46:33,973 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:36]
+2014-02-26 08:46:45,881 ERROR: Exception on / [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 44, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-26 08:46:54,362 ERROR: Exception on /index [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 44, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-26 08:46:59,447 ERROR: Exception on / [GET] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 44, in index
+    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+AttributeError: '_QueryProxy' object has no attribute 'paginate'
+2014-02-27 08:48:57,022 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:36]
+2014-02-27 08:49:47,242 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-27 08:49:54,472 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-27 08:49:59,512 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-27 08:50:04,553 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-27 08:50:09,590 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-27 08:50:14,618 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-27 08:50:19,728 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-27 08:50:37,876 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-28 08:19:45,063 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:37]
+2014-02-28 08:20:58,983 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-28 08:23:43,286 ERROR: Exception on /edit [POST] [in /home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_login.py", line 732, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/nathan/Desktop/Testdb/app/views.py", line 110, in edit
+    if form.validate_on_submit():
+  File "/home/nathan/Desktop/Testdb/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 125, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/nathan/Desktop/Testdb/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname = self.nickname.data).first()
+NameError: global name 'User' is not defined
+2014-02-28 08:26:31,884 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:37]
+2014-03-03 08:44:46,667 INFO: microblog startup [in /home/nathan/Desktop/Testdb/app/__init__.py:37]

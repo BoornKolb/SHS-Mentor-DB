@@ -1,9 +1,10 @@
-#!/home/nathan/Desktop/Microblog/flask/bin/python
+#!/home/nathan/Desktop/Testdb/flask/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==1.5.2','console_scripts','pip2.7'
 __requires__ = 'pip==1.5.2'
 import sys
 from pkg_resources import load_entry_point
 
-sys.exit(
-   load_entry_point('pip==1.5.2', 'console_scripts', 'pip2.7')()
-)
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('pip==1.5.2', 'console_scripts', 'pip2.7')()
+    )
