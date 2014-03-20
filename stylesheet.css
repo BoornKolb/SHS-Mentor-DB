@@ -72,8 +72,8 @@ td {
 }
 
 td img {
-        height: 75px;
-        width: 75px;
+        height: 150px;
+        width: 150px;
         box-shadow: none;
 }
 
@@ -84,14 +84,6 @@ th {
         color: #3c4543
 }
 
-#bottom_left{
-        border-bottom-left-radius: 15px;
-}
-
-#bottom_right{
-        border-bottom-right-radius: 15px;
-}
-
 #footer{
         clear: both;
         position: relative;
@@ -100,27 +92,6 @@ th {
         border-bottom-right-radius: 15px;
         height: 75px;
         background-color: #000000;
-}
-
-#button{
-        border: 2px solid #000000;
-        float:left;
-        position: relative;
-        left: 229px;
-        bottom: -20px;
-        border-radius: 5px;
-        background-color: #cc0323;
-        height: 30px;
-        width: 150px;
-        
-}
-
-#button p{
-        position: relative;
-        bottom: 10px;
-        font-size: 0.8em;
-        color: #acd1b2;
-        text-align: center;
 }
 
 .bold{
