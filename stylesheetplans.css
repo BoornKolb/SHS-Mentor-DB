@@ -31,6 +31,7 @@ ul{
         list-style-type: none;
         position: fixed;
         margin: -10px;
+        color:#FFFFFF;
 }
 
 li {
@@ -80,9 +81,18 @@ th {
 
 #sections {
     border-radius: 10px;
-    border: 20px solid #E0E0E0;
-    background-color: #E0E0E0;
+    border: 20px solid #480000;
+    background-color: #480000;
     text-align: center;
+    color:#FFFFFF;
+}
+
+#text {
+    border-radius: 10px;
+    border: 20px solid #280000;
+    background-color: #280000 ;
+    text-align: center;
+    color:#FFFFFF;
 }
 
 #bottom_left{
